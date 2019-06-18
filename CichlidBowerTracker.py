@@ -43,7 +43,7 @@ class ProjectData:
 
 
 rcloneRemote = 'cichlidVideo' #The name of the rclone remote that has access to the dropbox or other cloud account
-cloudMasterDirectory = 'McGrath/Apps/CichlidPiData/' # The master directory on the cloud account that stores video and depth data
+cloudMasterDirectory = 'McGrath/Apps/CichlidPiData/___Joe' # The master directory on the cloud account that stores video and depth data
 localMasterDirectory = os.getenv('HOME') + '/Temp/CichlidAnalyzer/' #
 machineLearningDirectory = '__MachineLearning/'
 manualLabelFile = 'ManualLabeledClusters.csv' # The name of the file that contains info on all manually annotated data
